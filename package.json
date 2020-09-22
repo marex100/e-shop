@@ -30,7 +30,7 @@
   "dependencies": {
     "@angular-devkit/architect-cli": "^0.1001.2",
     "@angular/animations": "^10.1.0",
-    "@angular/cdk": "^10.2.0",
+    "@angular/cdk": "^10.2.2",
     "@angular/cli": "^10.1.2",
     "@angular/common": "^10.1.0",
     "@angular/compiler": "^10.1.0",
