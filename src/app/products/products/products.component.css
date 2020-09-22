@@ -1,0 +1,15 @@
+.example-card {
+    max-width: 400px;
+    margin: 35px;
+  }
+  
+  .example-header-image {
+
+    background-size: cover;
+  }
+  .main-div{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }

@@ -1,0 +1,86 @@
+<mat-sidenav-container class="sidenav-container" >
+
+
+
+  
+<mat-sidenav #drawer class="sidenav"  fixedInViewport="false"
+      [attr.role]="(isHandset$ | async) ? 'dialog' : 'navigation'"
+      [mode]="(isHandset$ | async) ? 'over' : 'side'"
+      [opened]="(isHandset$ | async) === false">
+      
+    <mat-toolbar>MENÚ</mat-toolbar>
+    
+<!-- Esta es la sidenav -->
+  
+    <mat-nav-list >
+      <a mat-list-item routerLink="/home" routerLinkActive="Home">INICIO<span class="material-icons md-18 ">
+        home
+        </span></a>      
+      <a mat-list-item routerLink="/products" routerLinkActive="active">CATÁLOGO<span class="material-icons">
+        storefront
+        </span></a>      
+      <a mat-list-item routerLink="/ofertas" routerLinkActive="active">OFERTAS <i class="far fa-heart"></i></a>
+      
+    <a mat-list-item routerLink="/contact" routerLinkActive="active">CONTÁCTENOS      <i class="fab fa-whatsapp"></i></a>
+
+      <a mat-list-item *ngIf="!user" routerLink="/login" routerLinkActive="active">LOGIN <i class="fas fa-user-circle"></i></a>
+     
+
+      <a mat-list-item routerLink="/Contactenos" routerLinkActive="active">CARRITO<i class="fas fa-shopping-cart"></i></a>
+      
+    </mat-nav-list>
+  
+  </mat-sidenav>
+
+<!-- Esto es el toolbar -->
+
+  <mat-sidenav-content>
+    <mat-toolbar  color="primary">
+
+
+      <div class="toolbar">
+      <button
+        type="button"
+        aria-label="Toggle sidenav"
+        mat-icon-button
+        (click)="drawer.toggle()"
+        *ngIf="isHandset$ | async">
+        <mat-icon aria-label="Side nav toggle icon">menu</mat-icon>
+      </button>      
+      <span class="nombre-empresa">Llantas Grecia</span>     
+        <i class="fas fa-car"></i>
+      
+      </div>
+      <span class="spacer"></span>
+
+
+      <div  fxHide fxShow.gt-sm="true" fxHide.md>
+        <span class="material-icons md-18">
+          home
+          </span>
+      <a mat-list-item routerLink="/home" routerLinkActive="Home">INICIO</a>
+      <span class="material-icons">
+        storefront
+        </span>
+      <a mat-list-item routerLink="/products" routerLinkActive="active">CATÁLOGO</a>
+      <i class="far fa-heart"></i>
+      <a mat-list-item routerLink="/ofertas" routerLinkActive="active">OFERTAS</a>
+      
+      
+
+      <i class="fab fa-whatsapp"></i>
+      <a mat-list-item routerLink="/contact" routerLinkActive="active">CONTÁCTENOS</a>
+      
+      <i class="fas fa-user-circle"></i>
+      <a mat-list-item *ngIf="!user" routerLink="/login" routerLinkActive="active">LOGIN</a>
+     
+      <i class="fas fa-shopping-cart"></i>
+      <a mat-list-item routerLink="/Contactenos" routerLinkActive="active">CARRITO</a>
+      
+    </div>
+    </mat-toolbar>
+    
+    <ng-content></ng-content>
+    <!-- Add Content Here -->
+  </mat-sidenav-content>
+</mat-sidenav-container>

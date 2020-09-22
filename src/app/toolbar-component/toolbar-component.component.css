@@ -1,0 +1,74 @@
+.sidenav-container {
+  height: 100%;
+   background-color: rgb(240, 240, 240);
+   
+}
+.mat-list-item{
+ color: antiquewhite;
+  
+}
+.sidenav {
+  width: 170px;
+  background-color: rgb(54, 52, 77);
+  
+}
+.spacer{
+  flex: 1 1 auto;
+}
+
+.sidenav .mat-toolbar {
+  background: inherit;
+  background-color: rgb(54, 52, 77);
+
+  color:antiquewhite;
+  ;
+}
+
+.mat-toolbar.mat-primary {
+  position: sticky;
+  
+  top: 0;
+  color: antiquewhite;
+  background-color: rgb(54, 52, 77);
+  height:140px;
+}
+.nombre-empresa{
+  font-size: 30px;
+}
+
+
+mat-toolbar a{
+  display: inline-block;
+  margin: 0 30px 0 5px;
+  color: antiquewhite;
+  text-decoration: none;
+  
+}
+.material-icons.md-18{
+  font-size: 18px;
+
+}
+.material-icons.md-48{
+  font-size: 48px;
+  margin-left :15px;
+
+}
+.toolbar{
+  position: fixed;
+}
+.fa-car{
+  font-size: 48px;
+  margin-left :15px;
+  margin-bottom: 14px;
+}
+
+/* @media (max-width: 900px){
+  .sidenav {
+    width: 100%;
+    height: auto;
+    position: relative;
+    display: none;
+    
+  }
+
+} */
