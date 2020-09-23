@@ -32,9 +32,7 @@ import { LayoutModule } from '@angular/cdk/layout';
 import { MatSidenavModule } from '@angular/material/sidenav';
 import { MatListModule } from '@angular/material/list';
 import { ToolbarComponentComponent } from './toolbar-component/toolbar-component.component';
-import { FontAwesomeModule ,FaIconLibrary} from '@fortawesome/angular-fontawesome';
-import { faWaze,faWhatsapp, faInstagram  } from '@fortawesome/free-brands-svg-icons';
-import {faEnvelope} from '@fortawesome/free-regular-svg-icons';
+
 
 
 @NgModule({
@@ -68,7 +66,7 @@ import {faEnvelope} from '@fortawesome/free-regular-svg-icons';
     MatButtonModule,
     MatSidenavModule,
     MatListModule,
-    FontAwesomeModule  ,
+   
     MDBBootstrapModule.forRoot() 
       
 
@@ -77,7 +75,6 @@ import {faEnvelope} from '@fortawesome/free-regular-svg-icons';
   bootstrap: [AppComponent]
 })
 export class AppModule { 
-  constructor(private library: FaIconLibrary) {
-    library.addIcons( faWaze,faWhatsapp, faInstagram , faEnvelope);
+  constructor( ) {
   
 }}
