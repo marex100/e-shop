@@ -68,7 +68,7 @@ import {faEnvelope} from '@fortawesome/free-regular-svg-icons';
     MatButtonModule,
     MatSidenavModule,
     MatListModule,
-    FontAwesomeModule,
+    FontAwesomeModule  ,
     MDBBootstrapModule.forRoot() 
       
 
