@@ -21,7 +21,6 @@ import {MatCardModule} from '@angular/material/card';
 import { FooterComponent } from './footer/footer.component';
 import { HeaderComponent } from './header/header.component';
 import { CarouselComponent } from './carousel/carousel.component';
-import { MDBBootstrapModule } from 'angular-bootstrap-md';
 import { OfertasComponent } from './ofertas/ofertas.component';
 import { ContactComponent } from './contact/contact.component';
 

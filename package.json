@@ -54,7 +54,7 @@
     "@ngtools/webpack": "^10.1.2",
     "@schematics/schematics": "^0.1001.2",
     "@types/jasmine": "^3.5.14",
-    "angular-bootstrap-md": "^10.0.0",
+   
     "angular-route": "^1.8.0",
     "angular-router": "0.0.2",
     "animate.css": "^4.1.1",
