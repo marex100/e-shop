@@ -1,0 +1,35 @@
+[
+    {
+      "imgUrl": "https://www.virtualllantas.com/media/catalog/product/cache/1/image/383x/9df78eab33525d08d6e5fb8d27136e95/l/l/llanta_general_grabber_mt_2.jpg",
+      "name": "AGRESIVO DISEÑO MODELO ABIERTO CON COSTILLAS EYECTORAS DE PIEDRAS",
+
+
+
+      "price": 82000,
+      "id": 1
+    },
+    {
+      "imgUrl": "https://www.virtualllantas.com/media/catalog/product/cache/1/image/383x/9df78eab33525d08d6e5fb8d27136e95/l/l/llanta_Continental_conti_sport_contact_3_1_1_7.jpg",
+      "name": "AUTOMÓVIL - Ultra Alto Desempeño",
+      "price": 91000,
+      "id": 2
+    },
+    {
+      "imgUrl": "https://www.virtualllantas.com/media/catalog/product/cache/1/image/383x/9df78eab33525d08d6e5fb8d27136e95/l/l/llanta-kenda-emera-a1-kr41_2.jpg",
+      "name": "AUTOMÓVIL - DESEMPEÑO EXTREMO",
+      "price": 94500,
+      "id": 3
+    },
+    {
+      "imgUrl": "https://www.virtualllantas.com/media/catalog/product/cache/1/image/383x/9df78eab33525d08d6e5fb8d27136e95/l/l/llanta_general_grabber_mt_2.jpg",
+      "name": "AUTOMÓVIL - Ultra Alto Desempeño",
+      "price": 43400,
+      "id": 4
+    },
+    {
+      "imgUrl": "https://www.virtualllantas.com/media/catalog/product/cache/1/image/383x/9df78eab33525d08d6e5fb8d27136e95/l/l/llanta-kenda-emera-a1-kr41_2.jpg",
+      "name": "PIRELLI / P ZERO RUN FLAT",
+      "price": 54000,
+      "id": 5
+    }
+  ]
