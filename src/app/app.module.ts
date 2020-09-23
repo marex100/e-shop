@@ -64,10 +64,10 @@ import { ToolbarComponentComponent } from './toolbar-component/toolbar-component
     MatToolbarModule,
     MatButtonModule,
     MatSidenavModule,
-    MatListModule,
+    MatListModule
    
-    MDBBootstrapModule.forRoot() 
-      
+
+
 
   ],
   providers: [ProductDataService, HttpClient ],
